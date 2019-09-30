@@ -1,7 +1,12 @@
-const a=()=>{
-    console.log("hello")
+
+
+
+export const scrape=async ()=>{
+
+    return page()
 }
 
 
-
-a()
+const page=()=>{
+    return fetch("https://www.chevron.com")
+}

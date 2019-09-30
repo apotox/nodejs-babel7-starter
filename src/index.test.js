@@ -1,7 +1,15 @@
+import { scrape } from ".";
 
 
 describe('Name of the group', () => {
     it('should ', () => {
-        expect(2).toBe(2)
+
+        scrape().then(r=>{
+
+            expect(2).toBe(2)
+            
+        })
+
+        
     });
 });
